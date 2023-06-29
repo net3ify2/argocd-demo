@@ -11,7 +11,7 @@ spec:
   source:
     helm:
       valueFiles:
-      - values.yaml
+      - custom-values/staging/values.yaml
     path: ./charts/podinfo
     repoURL: https://github.com/net3ify2/podinfo-demo.git
     targetRevision: HEAD
