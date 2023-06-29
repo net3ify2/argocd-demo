@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: .
-    repoURL: https://github.com/niniigit/argocd-demo.git
+    repoURL: https://github.com/net3ify2/argocd-demo.git
     targetRevision: HEAD
   syncPolicy:
     automated:
